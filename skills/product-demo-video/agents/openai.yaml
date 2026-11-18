@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品演示视频"
+  short_description: "从产品原型逐幕确认、制作并导出 PRD 短片或完整产品演示。"
+  default_prompt: "用 $product-demo-video 根据这个产品原型做演示视频，先检查原型并和我确认场景。"

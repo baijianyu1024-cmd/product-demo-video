@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+.env
+.env.*
+!.env.example
+work/
+outputs/
+*.mp4
+*.mp3
+*.wav
+*.doubao.json
