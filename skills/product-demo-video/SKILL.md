@@ -9,6 +9,12 @@ Start with the complete demo and its entry point, assets, or prototype link. Use
 
 Before proposing scenes, establish the requested feature and audience. A design page can contain several unrelated features. Carry explicit user choices forward. Propose the few missing project choices together: on-screen copy language, narration language and method, cover wording and sound, and composition. Draft explanations in the user's conversation language unless requested otherwise, keeping the product UI language. Reuse an approved voice setup. Show the chosen settings before the first render.
 
+## Host capabilities
+
+Use this workflow in an Agent Skills-compatible host or by explicitly reading this file and its linked resources. Resolve bundled paths from this skill's actual directory. Check the host's available file access, command execution, media preview and capture/design tools before choosing a production method; read [host integration](references/hosts.md) when adapting to a different agent. Use the host's real tools and permission flow. The optional `agents/openai.yaml` configures OpenAI-host integration; other hosts need not interpret it.
+
+The local helpers require an accessible Python/Pillow/FFmpeg executor, with Node.js for Doubao TTS. Distinguish the host's execution environment from the user's computer. If direct interaction or recording is unavailable, use supplied recordings or approved design states. If scripts cannot run, explain the missing capability and prepare the wording and source plan; do not claim to have rendered or verified an MP4.
+
 ## Choose Chinese or English
 
 Before the cover, offer a Chinese or English video and confirm the missing language choices with the other project settings. A choice such as “英文版” sets both on-screen copy and TTS to English; allow separate choices such as English copy with Chinese TTS. Carry explicit choices forward. The conversation language and the original UI language do not determine the video language. Generate only the selected version unless the user requests both.
